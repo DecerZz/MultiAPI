@@ -6,5 +6,7 @@ This is made for new users or people that find other docs hard to understand!
 
 **Use:**
 ```lua
-Local API = loadstring(game:HttpGet(""))
+local API = loadstring(game:HttpGet("https://raw.githubusercontent.com/DecerZz/MultiAPI/main/Main.lua"))()
+
+API:Info()
 ```
